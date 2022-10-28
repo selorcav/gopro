@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "NimbusSanL-Bol";
+  src: url("fonts/NimbusSanL-Bol.otf");
+}
+@font-face {
+  font-family: "NimbusSanL-BolIta";
+  src: url("fonts/NimbusSanL-BolIta.otf");
+}
+@font-face {
+  font-family: "NimbusSanL-Reg";
+  src: url("fonts/NimbusSanL-Reg.otf");
+}
+@font-face {
+  font-family: "NimbusSanL-RegIta";
+  src: url("fonts/NimbusSanL-RegIta.otf");
+}
+
+.nimbus-bold{
+  font-family: "NimbusSanL-Bol";
+}
+.nimbus-bold-ita{
+  font-family: "NimbusSanL-BolIta";
+}
+.nimbus-text{
+  font-family: "NimbusSanL-Reg";
+}
+.nimbus-text-ita{
+  font-family: "NimbusSanL-RegIta";
+}
+.video-container {
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  left: 0;
+  top: 0;
+}
+.video-container-400 {
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  .video-container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+  }
+  .video-container-400 {
+    height: 200px;
+  }
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: auto;
+}
+
+.dark{
+  background-color: #111111;
+}
